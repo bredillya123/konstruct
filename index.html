@@ -17,34 +17,105 @@
 	<![endif]-->
 </head>
 <body>
-	<header class="header">
+	<header id="main" class="header">
 
 		<div class="container">
 			<div class="header__block">
 				<img src="./images/icons/logo_white.svg" alt="white logo" class="logo">
 				<h1 class="header__title">PARTNER WITH KONSTUCT</h1>
 				<p class="header__subtitle">An award-winning construction management firm</p>
-				<a href="#" class="header__scroll">SCROLL DOWN</a>
+				<a href="#nav" class="header__scroll">SCROLL DOWN</a>
 			</div>	
 		</div>
 
-		<nav class="navigation">
+	</header><!-- top block (_header.scss) -->
 
-			<div class="navigation__block">
-				<a href="#" class="navigation__logo"><img src="./images/icons/logo_dark.svg" alt="dark logo"></a>
+	<nav id="nav" class="navigation container">
+
+		<div class="navigation__block">
+			<a href="#" class="navigation__logo"><img class="navigation__logo" src="./images/icons/logo_dark.svg" alt="dark logo"></a>
+		</div>
+
+		<div class="navigation__block">
+			<a href="#main" class="navigation__elem">HOME</a>
+			<a href="#about" class="navigation__elem">ABOUT</a>
+			<a href="#services" class="navigation__elem">SERVICES</a>
+			<a href="#getInTouch" class="navigation__elem">WORK</a>
+			<a href="#contact" class="navigation__elem">CONTACT</a>
+		</div>
+	</nav><!-- navigation block (_header.scss)-->
+
+	<section id="about" class="story">
+		<div class="container story__block">
+			<h4 class="story__title">OUR STORY</h4>
+			<div class="story__content ">
+				<div class="story__block-left">
+					<h5 class="story__title--sub">Founded in 2011 by John Mathew Smith, <span class="color__blue">Konstruct</span> has become the number one construction management firm</h5>
+					<p class="story__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+				</div><!-- left block info text -->
+				<div class="story__block-right">
+					<a href="#" class="story__link">
+						<img src="./images/plan.png" alt="We plan" class="story__img-url">
+					</a>
+					<a href="#" class="story__link">
+						<img src="./images/manage.png" alt="We manage" class="story__img-url">
+					</a>
+					<a href="#" class="story__link">
+						<img src="./images/deliver.png" alt="We build" class="story__img-url">
+					</a>
+				</div><!-- right blcok info url&pictures  -->
 			</div>
+		</div>
+	</section><!-- section story block (_contetn.scss) -->
 
-			<div class="navigation__block">
-				<a href="#" class="navigation__elem">HOME</a>
-				<a href="#" class="navigation__elem">ABOUT</a>
-				<a href="#" class="navigation__elem">SERVICES</a>
-				<a href="#" class="navigation__elem">WORK</a>
-				<a href="#" class="navigation__elem">CONTACT</a>
+	<section id="services" class="services">
+		<div class="container services__block">
+			<div class="services__capabilites">
+				<h4 class="story__title services__title">OUR CAPABILITIES</h4>
+				<span class="story__text services__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</span>
+				<a href="#" class="services__button">ALL SERVICES</a>
 			</div>
-		</nav>
+			<ul class="services__list">
+				<li class="services__elem">
+					<img src="./images/det/Bitmap.png" class="services__img" alt="PROJECT AND CONSTRUCTION MANAGEMENT">
+					<h5 class="services__title--sub">PROJECT AND CONSTRUCTION MANAGEMENT</h5>
+					<p class="services__text--sub">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+				</li>
+				<li class="services__elem">
+					<img src="./images/det/Bitmap1.png" class="services__img" alt="STRUCTURE AUDIT AND MAINTENANCE">
+					<h5 class="services__title--sub">STRUCTURE AUDIT AND MAINTENANCE</h5>
+					<p class="services__text--sub">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+				</li>
+				<li class="services__elem">
+					<img src="./images/det/Bitmap2.png" class="services__img" alt="FACTORY CONSTRUCTION AND MODELING">
+					<h5 class="services__title--sub">FACTORY CONSTRUCTION AND MODELING</h5>
+					<p class="services__text--sub">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+				</li>
+			</ul>
+		</div>
+	</section><!-- services block (_content.scss) -->
 
-	</header>
+	<section id="getInTouch" class="getInTouch">
+		<div class="getInTouch__block container">
+			<h4 class="getInTouch__title">Want to build something amazing?</h4>
+			<a href="#" class="services__button getInTouch__button">GET IN TOUCH</a>
+		</div>
+	</section><!-- get in touch block (_contacts.scss) -->
 
+	<section id="contact" class="contact">
+		<div class="contact__block container">
+			<h4 class="contact__title">Newsletter Signup</h4>
+			<form class="contact__form" action="#">
+				<input class="contact__mail" type="text" placeholder="test@youremail.com">
+				<input class="contact__button" type="submit" value="SIGNUP">
+			</form>
+		</div>
+	</section><!-- block contact (_contacts.scss) -->
 
+	<footer class="footer">
+		<div class="footer__block container">
+
+		</div>
+	</footer><!-- block footer (_footer.scss) -->
 </body>
 </html>

@@ -1,0 +1,96 @@
+.getInTouch {
+    width: 100%;
+    background: url('/images/get-in-touch.png') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &__block {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title {
+        margin-top: 25%;
+        margin-bottom: 35px;
+        max-width: 350px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 36px;
+        letter-spacing: 0.15px;
+        color: #48555B;
+    }
+
+    &__button {
+        margin-bottom: 231px;
+    }
+}
+
+.contact {
+    background: #171819;
+    width: 100%;
+
+    &__block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__title {
+        margin-top: 35px;
+        margin-bottom: 35px;
+        margin-right: 70px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 30px;
+        letter-spacing: 0.846154px;
+        color: #FFFFFF;
+    }
+
+    &__form {
+        margin-top: 35px;
+        margin-bottom: 35px;
+        display: flex;
+    }
+
+    &__mail {
+        width: 250px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        padding-left: 16px;
+        background: #FFFFFF;
+        border: 1px solid #979797;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: 0.07px;
+        color: #48555B;
+    }
+
+    &__button {
+        width: 150px;
+        height: 43px;
+        background: #00A4E5;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 0.5px;
+        color: #FFFFFF;
+        cursor: pointer;
+        transition: all .3s;
+
+        &:hover {
+            color: #48555B;
+        }
+    }
+}
