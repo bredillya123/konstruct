@@ -397,7 +397,7 @@ body, html {
 
 .getInTouch {
   width: 100%;
-  background: url("/images/get-in-touch.png") no-repeat;
+  background: url("../images/get-in-touch.png") no-repeat;
   background-size: cover;
   height: 100vh;
   display: -webkit-box;
@@ -515,5 +515,86 @@ body, html {
 
 .contact__button:hover {
   color: #48555B;
+}
+
+.footer {
+  width: 100%;
+  background: #141A20;
+}
+
+.footer__block {
+  padding-top: 42px;
+  padding-bottom: 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__col {
+  max-width: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer__title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.846154px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.footer__text {
+  margin-top: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  line-height: 19px;
+  letter-spacing: 0.85px;
+  color: #FFFFFF;
+}
+
+.footer__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.footer__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+}
+
+.footer__nav {
+  color: #fff;
+  margin-left: 0px;
+  margin-right: 50px;
+}
+
+.footer__cont {
+  text-align: left;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 50px;
 }
 /*# sourceMappingURL=styles.css.map */
